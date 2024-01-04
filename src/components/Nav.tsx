@@ -15,6 +15,7 @@ const Nav = () => {
     <Tabs
       value={value}
       onChange={(e, newValue) => {
+        console.log(e);
         setValue(newValue);
       }}
     >
